@@ -1,0 +1,24 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/Projects/Unreal_Projects/Public_Speaking/Public_Speaking/Public_Speaking/Content/ThirdPerson/Input/IMC_Default.uasset",
+				"D:/Projects/Unreal_Projects/Public_Speaking/Public_Speaking/Public_Speaking/Content/TopDown/Maps/TopDownMap_BuiltData.uasset",
+				"D:/Projects/Unreal_Projects/Public_Speaking/Public_Speaking/Public_Speaking/Content/VRTemplate/Maps/VRTemplateMap.umap",
+				"D:/Projects/Unreal_Projects/Public_Speaking/Public_Speaking/Public_Speaking/Content/MetaHumans/Ada/BP_Ada.uasset",
+				"D:/Projects/Unreal_Projects/Public_Speaking/Public_Speaking/Public_Speaking/Content/MetaHumans/Common/Common/RTG_AdaToMetahuman.uasset",
+				"D:/Projects/Unreal_Projects/Public_Speaking/Public_Speaking/Public_Speaking/Content/MetaHumans/Common/Common/RTG_metahuman_base_skel_AnimBP.uasset",
+				"D:/Projects/Unreal_Projects/Public_Speaking/Public_Speaking/Public_Speaking/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset",
+				"D:/Projects/Unreal_Projects/Public_Speaking/Public_Speaking/Public_Speaking/Content/Maps/Test_ThirdPersonMap.umap",
+				"D:/Projects/Unreal_Projects/Public_Speaking/Public_Speaking/Public_Speaking/Content/VRTemplate/Input/IMC_Default.uasset",
+				"D:/Projects/Unreal_Projects/Public_Speaking/Public_Speaking/Public_Speaking/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/N4/47UAPAMCXM0M6U05BSNACQ.uasset",
+				"D:/Projects/Unreal_Projects/Public_Speaking/Public_Speaking/Public_Speaking/Content/Characters/Mannequins/Animations/ABP_Quinn.uasset",
+				"D:/Projects/Unreal_Projects/Public_Speaking/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"D:/Projects/Unreal_Projects/Public_Speaking/Content/VRTemplate/Maps/VRTemplateMap.umap"
+			]
+		}
+	]
+}
