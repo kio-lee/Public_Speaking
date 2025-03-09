@@ -1,0 +1,10 @@
+{
+	"SourceFiles": [
+		"D:\\Projects\\Unreal_Projects\\Public_Speaking\\Public_Speaking\\Source\\Public_Speaking\\Public_Speaking.Build.cs",
+		"D:\\Projects\\Unreal_Projects\\Public_Speaking\\Public_Speaking\\Plugins\\OpenAIAPI\\Source\\OpenAIAPI\\OpenAIAPI.Build.cs",
+		"D:\\Projects\\Unreal_Projects\\Public_Speaking\\Public_Speaking\\Plugins\\UnrealGenAISupport-main\\Source\\GenerativeAISupport\\GenerativeAISupport.Build.cs",
+		"D:\\Projects\\Unreal_Projects\\Public_Speaking\\Public_Speaking\\Source\\Public_Speaking.Target.cs",
+		"D:\\Projects\\Unreal_Projects\\Public_Speaking\\Public_Speaking\\Source\\Public_SpeakingEditor.Target.cs"
+	],
+	"EngineVersion": "5.4.4"
+}
