@@ -1,0 +1,1228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Public_Speaking.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Public_Speaking.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Public_SpeakingEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\Mac">
+      <UniqueIdentifier>{C34A53DE-7A2E-391F-9292-A84444E41B18}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Mac\MacEngine.ini">
+      <Filter>Config\Mac</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{BB38096A-B391-30DC-A0D4-4F3EA6B44507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\UEAzSpeech-main">
+      <UniqueIdentifier>{090CF82D-3D70-323B-9EA7-1FD57FFDCD24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\UEAzSpeech-main\Source">
+      <UniqueIdentifier>{1932A627-964C-381A-8F5C-CCACF1441C66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\AzSpeechEditor">
+      <UniqueIdentifier>{56FD1DEC-CE47-363F-87F8-C0C425003B53}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeechEditor\AzSpeechEditor.Build.cs">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeechEditor</Filter>
+    </None>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\AzSpeechEditor\Private">
+      <UniqueIdentifier>{0DA3D7DA-AED6-3056-817A-BD6EAB2C7A44}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeechEditor\Private\AzSpeechEditor.cpp">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeechEditor\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\AzSpeechEditor\Private\Generator">
+      <UniqueIdentifier>{B98AC46F-C067-39A9-B033-6D4C041A39D5}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeechEditor\Private\Generator\AzSpeechPropertiesGetter.cpp">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeechEditor\Private\Generator</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeechEditor\Private\Generator\AzSpeechPropertiesGetter.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeechEditor\Private\Generator</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeechEditor\Private\Generator\SAzSpeechAudioGenerator.cpp">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeechEditor\Private\Generator</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeechEditor\Private\Generator\SAzSpeechAudioGenerator.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeechEditor\Private\Generator</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\AzSpeechEditor\Public">
+      <UniqueIdentifier>{5B008A45-0BCF-3900-BE6E-86BCADE9AE32}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeechEditor\Public\AzSpeechEditor.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeechEditor\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\UEAzSpeech-main\AzSpeech.uplugin">
+      <Filter>Plugins\UEAzSpeech-main</Filter>
+    </None>
+    <Filter Include="Plugins\UEAzSpeech-main\Config">
+      <UniqueIdentifier>{AFE42F9B-D4EE-3D23-972F-7B4FF5F603B6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\UEAzSpeech-main\Config\DefaultAzSpeech.ini">
+      <Filter>Plugins\UEAzSpeech-main\Config</Filter>
+    </None>
+    <None Include="..\..\Plugins\UEAzSpeech-main\Config\FilterPlugin.ini">
+      <Filter>Plugins\UEAzSpeech-main\Config</Filter>
+    </None>
+    <Filter Include="Plugins\UEAzSpeech-main\Resources">
+      <UniqueIdentifier>{C6C118DB-700F-3659-AA7C-880B7A0F46F4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\UEAzSpeech-main\Resources\Icon128.png">
+      <Filter>Plugins\UEAzSpeech-main\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\UnrealGenAISupport-main">
+      <UniqueIdentifier>{C183FE5A-51C0-341D-AACD-272BE53B1F61}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\UnrealGenAISupport-main\GenerativeAISupport.uplugin">
+      <Filter>Plugins\UnrealGenAISupport-main</Filter>
+    </None>
+    <Filter Include="Plugins\UnrealGenAISupport-main\Config">
+      <UniqueIdentifier>{CABBA6E3-676B-35CD-80AF-167CCF66FD5F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\UnrealGenAISupport-main\Config\DefaultGenerativeAISupport.ini">
+      <Filter>Plugins\UnrealGenAISupport-main\Config</Filter>
+    </None>
+    <Filter Include="Plugins\UnrealGenAISupport-main\Resources">
+      <UniqueIdentifier>{366B7794-6249-3458-8FDC-C6E7C77C4747}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\UnrealGenAISupport-main\Resources\Icon128.png">
+      <Filter>Plugins\UnrealGenAISupport-main\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\AzSpeech">
+      <UniqueIdentifier>{40197759-5358-34C3-944E-C1CE7FE52EC3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\AzSpeech.Build.cs">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech</Filter>
+    </None>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\AzSpeech\Private">
+      <UniqueIdentifier>{1382EB78-0830-3179-A0DF-E57740FD63F9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech.cpp">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Private\LogAzSpeech.cpp">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech">
+      <UniqueIdentifier>{41A41583-45F2-3CA5-886C-9C1AD19A13A4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\AzSpeechEngineSubsystem.cpp">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\AzSpeechHelper.cpp">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\AzSpeechSettings.cpp">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Runnables">
+      <UniqueIdentifier>{6BE21C05-2451-3D46-948A-16A6BC28B242}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Runnables\Bases">
+      <UniqueIdentifier>{EB46150D-CAEB-34C7-B55B-67051EBCDEFF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Runnables\Bases\AzSpeechRunnableBase.cpp">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Runnables\Bases</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Runnables\Recognition">
+      <UniqueIdentifier>{D9271BB2-C622-3CDD-9640-F368DCA24136}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Runnables\Recognition\AzSpeechKeywordRecognitionRunnable.cpp">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Runnables\Recognition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Runnables\Recognition\AzSpeechRecognitionRunnable.cpp">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Runnables\Recognition</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Runnables\Recognition\Bases">
+      <UniqueIdentifier>{5D6BFAF3-0A48-3A4A-BBF5-8B7EFE4E7C03}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Runnables\Recognition\Bases\AzSpeechRecognitionRunnableBase.cpp">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Runnables\Recognition\Bases</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Runnables\Synthesis">
+      <UniqueIdentifier>{530FF735-8F8F-345B-8DB0-CED5248209CD}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Runnables\Synthesis\AzSpeechSynthesisRunnable.cpp">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Runnables\Synthesis</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Structures">
+      <UniqueIdentifier>{8306FB0E-3BF2-3257-8DC5-B243FB477D82}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Structures\AzSpeechAnimationData.cpp">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Structures\AzSpeechAudioInputDeviceInfo.cpp">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Structures\AzSpeechPhraseListMap.cpp">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Structures\AzSpeechRecognitionMap.cpp">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Structures\AzSpeechSettingsOptions.cpp">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Structures\AzSpeechTaskData.cpp">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Structures\AzSpeechVisemeData.cpp">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Structures</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Tasks">
+      <UniqueIdentifier>{F30753E2-180D-331B-BFBA-A7B86ED04263}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Tasks\Bases">
+      <UniqueIdentifier>{66953B10-A819-3686-A497-6CA8693721FA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Tasks\Bases\AzSpeechTaskBase.cpp">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Tasks\Bases</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Tasks\Recognition">
+      <UniqueIdentifier>{DB9ACEE9-4676-308D-A807-14BB80552660}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Tasks\Recognition\KeywordRecognitionAsync.cpp">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Tasks\Recognition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Tasks\Recognition\SpeechToTextAsync.cpp">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Tasks\Recognition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Tasks\Recognition\WavFileToTextAsync.cpp">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Tasks\Recognition</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Tasks\Recognition\Bases">
+      <UniqueIdentifier>{A283560E-1BFC-3A14-BB7C-DC4D14B91181}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Tasks\Recognition\Bases\AzSpeechRecognizerTaskBase.cpp">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Tasks\Recognition\Bases</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Tasks\Synthesis">
+      <UniqueIdentifier>{8D04CFF1-455B-394A-AF81-4AB1EF38BBC6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Tasks\Synthesis\SSMLToAudioDataAsync.cpp">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Tasks\Synthesis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Tasks\Synthesis\SSMLToSoundWaveAsync.cpp">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Tasks\Synthesis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Tasks\Synthesis\SSMLToSpeechAsync.cpp">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Tasks\Synthesis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Tasks\Synthesis\SSMLToWavFileAsync.cpp">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Tasks\Synthesis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Tasks\Synthesis\TextToAudioDataAsync.cpp">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Tasks\Synthesis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Tasks\Synthesis\TextToSoundWaveAsync.cpp">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Tasks\Synthesis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Tasks\Synthesis\TextToSpeechAsync.cpp">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Tasks\Synthesis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Tasks\Synthesis\TextToWavFileAsync.cpp">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Tasks\Synthesis</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Tasks\Synthesis\Bases">
+      <UniqueIdentifier>{9B9925D0-21E0-3EDD-9674-269CBBBEC632}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Tasks\Synthesis\Bases\AzSpeechAudioDataSynthesisBase.cpp">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Tasks\Synthesis\Bases</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Tasks\Synthesis\Bases\AzSpeechSpeechSynthesisBase.cpp">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Tasks\Synthesis\Bases</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Tasks\Synthesis\Bases\AzSpeechSynthesizerTaskBase.cpp">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Tasks\Synthesis\Bases</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Tasks\Synthesis\Bases\AzSpeechWavFileSynthesisBase.cpp">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Tasks\Synthesis\Bases</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Tasks\Utils">
+      <UniqueIdentifier>{15A3F606-22A0-3510-ABDB-114C7EC00BC1}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Tasks\Utils\GetAvailableVoicesAsync.cpp">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Tasks\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Tasks\Utils\RecognitionMapCheckAsync.cpp">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Private\AzSpeech\Tasks\Utils</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\AzSpeech\Public">
+      <UniqueIdentifier>{6B4F83C6-0AF7-3A02-936C-D76E9C089370}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeechInternalFuncs.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Public\LogAzSpeech.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech">
+      <UniqueIdentifier>{960F6A57-A980-32F6-BD06-559E794CAD0E}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\AzSpeechEngineSubsystem.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\AzSpeechHelper.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\AzSpeechSettings.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Runnables">
+      <UniqueIdentifier>{7CF0EB2E-5F6E-3CC5-BB9C-7B742F07866E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Runnables\Bases">
+      <UniqueIdentifier>{346D64E9-CB1F-38CD-B0DF-AE331E2F96CB}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Runnables\Bases\AzSpeechRunnableBase.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Runnables\Bases</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Runnables\Recognition">
+      <UniqueIdentifier>{E030DA19-9DA0-34CB-968E-B615A4653FC9}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Runnables\Recognition\AzSpeechKeywordRecognitionRunnable.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Runnables\Recognition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Runnables\Recognition\AzSpeechRecognitionRunnable.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Runnables\Recognition</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Runnables\Recognition\Bases">
+      <UniqueIdentifier>{81810E04-6C44-3962-BB7C-FA7847F72233}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Runnables\Recognition\Bases\AzSpeechRecognitionRunnableBase.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Runnables\Recognition\Bases</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Runnables\Synthesis">
+      <UniqueIdentifier>{14496DEF-9139-3474-ABF1-CD60826B947F}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Runnables\Synthesis\AzSpeechSynthesisRunnable.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Runnables\Synthesis</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Structures">
+      <UniqueIdentifier>{89210AF9-7431-3208-8122-AB60AAAA32E1}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Structures\AzSpeechAnimationData.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Structures\AzSpeechAudioInputDeviceInfo.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Structures\AzSpeechPhraseListMap.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Structures\AzSpeechRecognitionMap.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Structures\AzSpeechSettingsOptions.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Structures\AzSpeechTaskData.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Structures\AzSpeechVisemeData.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Structures</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Tasks">
+      <UniqueIdentifier>{81DB962C-3610-3A4A-9842-55291CAC0E0C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Tasks\Bases">
+      <UniqueIdentifier>{9785211F-8CC1-3F63-B257-CFCBC4744F07}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Tasks\Bases\AzSpeechTaskBase.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Tasks\Bases</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Tasks\Recognition">
+      <UniqueIdentifier>{29EF0C35-8FD8-351B-8444-1A611E452E6A}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Tasks\Recognition\KeywordRecognitionAsync.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Tasks\Recognition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Tasks\Recognition\SpeechToTextAsync.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Tasks\Recognition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Tasks\Recognition\WavFileToTextAsync.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Tasks\Recognition</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Tasks\Recognition\Bases">
+      <UniqueIdentifier>{6A32DF02-D848-3322-A5A4-E28D1091CBD8}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Tasks\Recognition\Bases\AzSpeechRecognizerTaskBase.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Tasks\Recognition\Bases</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Tasks\Synthesis">
+      <UniqueIdentifier>{3F959D0E-19A2-3B2B-B384-C66475889767}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Tasks\Synthesis\SSMLToAudioDataAsync.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Tasks\Synthesis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Tasks\Synthesis\SSMLToSoundWaveAsync.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Tasks\Synthesis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Tasks\Synthesis\SSMLToSpeechAsync.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Tasks\Synthesis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Tasks\Synthesis\SSMLToWavFileAsync.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Tasks\Synthesis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Tasks\Synthesis\TextToAudioDataAsync.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Tasks\Synthesis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Tasks\Synthesis\TextToSoundWaveAsync.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Tasks\Synthesis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Tasks\Synthesis\TextToSpeechAsync.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Tasks\Synthesis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Tasks\Synthesis\TextToWavFileAsync.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Tasks\Synthesis</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Tasks\Synthesis\Bases">
+      <UniqueIdentifier>{9C914FF8-94BD-31CC-BA1B-F61CA86F3F00}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Tasks\Synthesis\Bases\AzSpeechAudioDataSynthesisBase.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Tasks\Synthesis\Bases</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Tasks\Synthesis\Bases\AzSpeechSpeechSynthesisBase.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Tasks\Synthesis\Bases</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Tasks\Synthesis\Bases\AzSpeechSynthesizerTaskBase.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Tasks\Synthesis\Bases</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Tasks\Synthesis\Bases\AzSpeechWavFileSynthesisBase.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Tasks\Synthesis\Bases</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Tasks\Utils">
+      <UniqueIdentifier>{F4628FE5-1865-36A4-B780-A94F601D6796}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Tasks\Utils\GetAvailableVoicesAsync.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Tasks\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Tasks\Utils\RecognitionMapCheckAsync.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\AzSpeech\Public\AzSpeech\Tasks\Utils</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\ThirdParty">
+      <UniqueIdentifier>{D9102E5F-7E8C-35E0-A7FF-8D963922DF2C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper">
+      <UniqueIdentifier>{08235E02-E286-3F7C-B3F6-7B0468517400}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\AzSpeech_UPL_Android.xml">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper</Filter>
+    </None>
+    <None Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\AzSpeech_UPL_IOS.xml">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper</Filter>
+    </None>
+    <None Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\AzSpeech_UPL_MacOS.xml">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper</Filter>
+    </None>
+    <None Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\AzureWrapper.Build.cs">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper</Filter>
+    </None>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include">
+      <UniqueIdentifier>{C3B68D8E-0661-3CD7-BC8F-1E702B384507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api">
+      <UniqueIdentifier>{90F10C84-8EB8-340A-BF3C-A307D76CFB58}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\azac_api_cxx_common.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\CMakeLists.txt">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </None>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_audio_config.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_audio_data_stream.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_audio_processing_options.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_audio_stream.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_audio_stream_format.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_auto_detect_source_lang_config.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_auto_detect_source_lang_result.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_class_language_model.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_common.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_connection.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_connection_eventargs.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_connection_message.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_connection_message_eventargs.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_conversation.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_conversational_language_understanding_model.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_conversation_transcriber.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_conversation_transcription_eventargs.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_conversation_transcription_result.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_conversation_translator.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_conversation_translator_events.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_dialog_service_config.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_dialog_service_connector.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_dialog_service_connector_eventargs.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_embedded_speech_config.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_enums.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_eventargs.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_eventsignal.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_eventsignalbase.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_event_logger.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_file_logger.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_grammar.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_grammar_list.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_grammar_phrase.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_hybrid_speech_config.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_intent_recognition_eventargs.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_intent_recognition_result.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_intent_recognizer.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_intent_trigger.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_keyword_recognition_eventargs.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_keyword_recognition_model.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_keyword_recognition_result.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_keyword_recognizer.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_language_understanding_model.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_log_level.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_meeting.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_meeting_transcriber.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_meeting_transcription_eventargs.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_meeting_transcription_result.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_memory_logger.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_participant.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_pattern_matching_entity.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_pattern_matching_intent.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_pattern_matching_model.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_phrase_list_grammar.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_pronunciation_assessment_config.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_pronunciation_assessment_result.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_properties.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_recognition_async_recognizer.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_recognition_base_async_recognizer.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_recognition_eventargs.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_recognition_result.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_recognizer.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_session.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_session_eventargs.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_smart_handle.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_source_language_recognizer.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_source_lang_config.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_speaker_identification_model.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_speaker_recognition_result.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_speaker_recognizer.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_speaker_verification_model.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_speech_config.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_speech_recognition_eventargs.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_speech_recognition_model.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_speech_recognition_result.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_speech_recognizer.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_speech_synthesis_bookmark_eventargs.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_speech_synthesis_eventargs.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_speech_synthesis_request.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_speech_synthesis_result.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_speech_synthesis_viseme_eventargs.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_speech_synthesis_word_boundary_eventargs.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_speech_synthesizer.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_speech_translation_config.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_speech_translation_model.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_string_helpers.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_synthesis_voices_result.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_translation_eventargs.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_translation_recognizer.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_translation_result.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_user.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_utils.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_voice_info.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_voice_profile.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_voice_profile_client.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_voice_profile_enrollment_result.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_voice_profile_phrase_result.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api\speechapi_cxx_voice_profile_result.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\cxx_api</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api">
+      <UniqueIdentifier>{D39C5D7C-4F5C-3B4C-B76F-4F732B843D81}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\azac_api_c_common.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\azac_api_c_diagnostics.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\azac_api_c_error.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\azac_api_c_pal.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\azac_debug.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\azac_error.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\CMakeLists.txt">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </None>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\speechapi_c.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\speechapi_c_audio_config.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\speechapi_c_audio_processing_options.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\speechapi_c_audio_stream.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\speechapi_c_audio_stream_format.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\speechapi_c_auto_detect_source_lang_config.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\speechapi_c_common.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\speechapi_c_connection.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\speechapi_c_conversation.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\speechapi_c_conversation_transcription_result.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\speechapi_c_conversation_translator.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\speechapi_c_diagnostics.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\speechapi_c_dialog_service_config.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\speechapi_c_dialog_service_connector.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\speechapi_c_embedded_speech_config.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\speechapi_c_error.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\speechapi_c_ext_audiocompression.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\speechapi_c_factory.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\speechapi_c_grammar.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\speechapi_c_hybrid_speech_config.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\speechapi_c_intent_recognizer.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\speechapi_c_intent_result.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\speechapi_c_intent_trigger.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\speechapi_c_json.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\speechapi_c_keyword_recognition_model.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\speechapi_c_language_understanding_model.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\speechapi_c_meeting.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\speechapi_c_meeting_transcription_result.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\speechapi_c_operations.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\speechapi_c_participant.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\speechapi_c_pattern_matching_model.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\speechapi_c_pronunciation_assessment_config.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\speechapi_c_property_bag.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\speechapi_c_recognizer.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\speechapi_c_result.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\speechapi_c_session.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\speechapi_c_source_lang_config.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\speechapi_c_speaker_recognition.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\speechapi_c_speech_config.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\speechapi_c_speech_recognition_model.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\speechapi_c_speech_translation_config.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\speechapi_c_speech_translation_model.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\speechapi_c_synthesis_request.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\speechapi_c_synthesizer.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\speechapi_c_translation_recognizer.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\speechapi_c_translation_result.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\speechapi_c_user.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\spxdebug.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api\spxerror.h">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\include\c_api</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs">
+      <UniqueIdentifier>{E60A24AD-C42A-32DC-BCBC-D3FA78D493A6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Android">
+      <UniqueIdentifier>{5E180676-43CD-305F-90F0-7D647C294FCF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Android\arm64-v8a">
+      <UniqueIdentifier>{B27212DA-1AE9-32CB-AB58-2BFCF9945626}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Android\arm64-v8a\libMicrosoft.CognitiveServices.Speech.core.so">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Android\arm64-v8a</Filter>
+    </None>
+    <None Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Android\arm64-v8a\libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Android\arm64-v8a</Filter>
+    </None>
+    <None Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Android\arm64-v8a\libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Android\arm64-v8a</Filter>
+    </None>
+    <None Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Android\arm64-v8a\libMicrosoft.CognitiveServices.Speech.extension.kws.so">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Android\arm64-v8a</Filter>
+    </None>
+    <None Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Android\arm64-v8a\libMicrosoft.CognitiveServices.Speech.extension.lu.so">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Android\arm64-v8a</Filter>
+    </None>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Android\armeabi-v7a">
+      <UniqueIdentifier>{74CA0204-6AE9-3400-928E-3FD791E71A9C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Android\armeabi-v7a\libMicrosoft.CognitiveServices.Speech.core.so">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Android\armeabi-v7a</Filter>
+    </None>
+    <None Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Android\armeabi-v7a\libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Android\armeabi-v7a</Filter>
+    </None>
+    <None Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Android\armeabi-v7a\libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Android\armeabi-v7a</Filter>
+    </None>
+    <None Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Android\armeabi-v7a\libMicrosoft.CognitiveServices.Speech.extension.kws.so">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Android\armeabi-v7a</Filter>
+    </None>
+    <None Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Android\armeabi-v7a\libMicrosoft.CognitiveServices.Speech.extension.lu.so">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Android\armeabi-v7a</Filter>
+    </None>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Android\x86_64">
+      <UniqueIdentifier>{7348D531-834B-3FB6-B2AE-18C90A9A249D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Android\x86_64\libMicrosoft.CognitiveServices.Speech.core.so">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Android\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Android\x86_64\libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Android\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Android\x86_64\libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Android\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Android\x86_64\libMicrosoft.CognitiveServices.Speech.extension.kws.so">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Android\x86_64</Filter>
+    </None>
+    <None Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Android\x86_64\libMicrosoft.CognitiveServices.Speech.extension.lu.so">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Android\x86_64</Filter>
+    </None>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\iOS">
+      <UniqueIdentifier>{6A014533-8391-334D-A078-D19336F56485}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\iOS\libMicrosoft.CognitiveServices.Speech.core.a">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\iOS</Filter>
+    </None>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Linux">
+      <UniqueIdentifier>{F707A129-4766-3C98-8FF9-454ABE3DDF22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Linux\Arm64">
+      <UniqueIdentifier>{D0424381-9482-306D-B393-64D031196461}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Linux\Arm64\libMicrosoft.CognitiveServices.Speech.core.so">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Linux\Arm64</Filter>
+    </None>
+    <None Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Linux\Arm64\libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Linux\Arm64</Filter>
+    </None>
+    <None Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Linux\Arm64\libMicrosoft.CognitiveServices.Speech.extension.codec.so">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Linux\Arm64</Filter>
+    </None>
+    <None Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Linux\Arm64\libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Linux\Arm64</Filter>
+    </None>
+    <None Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Linux\Arm64\libMicrosoft.CognitiveServices.Speech.extension.kws.so">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Linux\Arm64</Filter>
+    </None>
+    <None Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Linux\Arm64\libMicrosoft.CognitiveServices.Speech.extension.lu.so">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Linux\Arm64</Filter>
+    </None>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Linux\x64">
+      <UniqueIdentifier>{92B911FC-D448-3ED1-BAC1-90AC9E1025DF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Linux\x64\libMicrosoft.CognitiveServices.Speech.core.so">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Linux\x64</Filter>
+    </None>
+    <None Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Linux\x64\libMicrosoft.CognitiveServices.Speech.extension.audio.sys.so">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Linux\x64</Filter>
+    </None>
+    <None Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Linux\x64\libMicrosoft.CognitiveServices.Speech.extension.codec.so">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Linux\x64</Filter>
+    </None>
+    <None Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Linux\x64\libMicrosoft.CognitiveServices.Speech.extension.kws.ort.so">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Linux\x64</Filter>
+    </None>
+    <None Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Linux\x64\libMicrosoft.CognitiveServices.Speech.extension.kws.so">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Linux\x64</Filter>
+    </None>
+    <None Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Linux\x64\libMicrosoft.CognitiveServices.Speech.extension.lu.so">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Linux\x64</Filter>
+    </None>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Mac">
+      <UniqueIdentifier>{BC3A806D-DC85-30EA-BA88-3189E09300C5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Mac\Arm64">
+      <UniqueIdentifier>{6E26E426-6E5D-307C-AA8A-B676B84B24AD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Mac\Arm64\libMicrosoft.CognitiveServices.Speech.core.dylib">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Mac\Arm64</Filter>
+    </None>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Mac\x64">
+      <UniqueIdentifier>{A97B219F-C9BF-3FD0-BB30-470580EDFADE}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Mac\x64\libMicrosoft.CognitiveServices.Speech.core.dylib">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Mac\x64</Filter>
+    </None>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Win">
+      <UniqueIdentifier>{32ADE9E9-D840-37F5-8635-0E109FB6C6A8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Win\Microsoft.CognitiveServices.Speech.core.lib">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Win</Filter>
+    </None>
+    <Filter Include="Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Win\Runtime">
+      <UniqueIdentifier>{1A2FE88D-D74B-3500-80BD-F6995DD1BE70}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Win\Runtime\Microsoft.CognitiveServices.Speech.core.dll">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Win\Runtime</Filter>
+    </None>
+    <None Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Win\Runtime\Microsoft.CognitiveServices.Speech.extension.audio.sys.dll">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Win\Runtime</Filter>
+    </None>
+    <None Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Win\Runtime\Microsoft.CognitiveServices.Speech.extension.codec.dll">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Win\Runtime</Filter>
+    </None>
+    <None Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Win\Runtime\Microsoft.CognitiveServices.Speech.extension.kws.dll">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Win\Runtime</Filter>
+    </None>
+    <None Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Win\Runtime\Microsoft.CognitiveServices.Speech.extension.kws.ort.dll">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Win\Runtime</Filter>
+    </None>
+    <None Include="..\..\Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Win\Runtime\Microsoft.CognitiveServices.Speech.extension.lu.dll">
+      <Filter>Plugins\UEAzSpeech-main\Source\ThirdParty\AzureWrapper\libs\Win\Runtime</Filter>
+    </None>
+    <Filter Include="Plugins\UnrealGenAISupport-main\Source">
+      <UniqueIdentifier>{156C61D1-AF32-32A5-AB2F-D80A98D9EA30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport">
+      <UniqueIdentifier>{41C01B07-64BD-38E6-B535-E5C2B50F4F30}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\GenerativeAISupport.Build.cs">
+      <Filter>Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport</Filter>
+    </None>
+    <Filter Include="Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Private">
+      <UniqueIdentifier>{01DB8293-14D0-358B-BECD-75039E24AD2D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Private\GenerativeAISupport.cpp">
+      <Filter>Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Private\Data">
+      <UniqueIdentifier>{49237A5B-9BE6-389E-BEAF-9E586E33C7AA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Private\Data\GenAIOrgs.cpp">
+      <Filter>Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Private\Data</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Private\Data\OpenAI">
+      <UniqueIdentifier>{4E6CB8BB-E001-300F-9ACA-AAB3446D5C73}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Private\Data\OpenAI\GenOAIChatStructs.cpp">
+      <Filter>Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Private\Data\OpenAI</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Private\Models">
+      <UniqueIdentifier>{6EADB015-7325-3BAC-86D2-9678A42FFC6D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Private\Models\DeepSeek">
+      <UniqueIdentifier>{7427DE2B-444A-342F-8495-10B42A826EA7}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Private\Models\DeepSeek\GenDSeekChat.cpp">
+      <Filter>Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Private\Models\DeepSeek</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Private\Models\OpenAI">
+      <UniqueIdentifier>{EC916411-4FE8-3947-B2E2-F0BE3135CF3B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Private\Models\OpenAI\GenOAIChat.cpp">
+      <Filter>Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Private\Models\OpenAI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Private\Models\OpenAI\GenOAIStructuredOpService.cpp">
+      <Filter>Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Private\Models\OpenAI</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Private\Secure">
+      <UniqueIdentifier>{7DE882BB-6540-306D-B8F7-D74889E27E90}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Private\Secure\GenSecureKey.cpp">
+      <Filter>Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Private\Secure</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Private\Serialize">
+      <UniqueIdentifier>{FAD42377-6C3D-3EF0-BF69-048D1D0F1E76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Private\Serialize\Legacy">
+      <UniqueIdentifier>{0C6C31FD-FA52-3C4C-858A-7E46244C96C6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Private\Serialize\Legacy\GenManualSerializerHelper.cpp">
+      <Filter>Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Private\Serialize\Legacy</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Private\Utilities">
+      <UniqueIdentifier>{B136F7C2-8F35-37CE-9ACF-4B18FD950EA7}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Private\Utilities\GenGlobalDefinitions.cpp">
+      <Filter>Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Private\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Private\Utilities\GenUtils.cpp">
+      <Filter>Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Private\Utilities</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Public">
+      <UniqueIdentifier>{F438B5E3-0784-3D51-9915-AB5F566D3980}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Public\GenerativeAISupport.h">
+      <Filter>Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Public\Data">
+      <UniqueIdentifier>{7A52BCB9-CFCE-3B50-A094-7D2437BFD748}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Public\Data\GenAIOrgs.h">
+      <Filter>Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Public\Data</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Public\Data\OpenAI">
+      <UniqueIdentifier>{627A3FA4-629F-384C-8A03-C07E4B282999}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Public\Data\OpenAI\GenOAIChatStructs.h">
+      <Filter>Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Public\Data\OpenAI</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Public\Models">
+      <UniqueIdentifier>{8003D329-5714-3863-BB2E-6D480AE89300}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Public\Models\DeepSeek">
+      <UniqueIdentifier>{BE20F54B-83C1-3F89-BC50-7D13E9855574}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Public\Models\DeepSeek\GenDSeekChat.h">
+      <Filter>Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Public\Models\DeepSeek</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Public\Models\OpenAI">
+      <UniqueIdentifier>{3C755AC0-2639-3ABA-9B00-F2DE0C756B5F}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Public\Models\OpenAI\GenOAIChat.h">
+      <Filter>Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Public\Models\OpenAI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Public\Models\OpenAI\GenOAIStructuredOpService.h">
+      <Filter>Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Public\Models\OpenAI</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Public\Secure">
+      <UniqueIdentifier>{C1BD5E15-39D3-37F9-96BE-43EA33A29995}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Public\Secure\GenSecureKey.h">
+      <Filter>Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Public\Secure</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Public\Serialize">
+      <UniqueIdentifier>{596A5295-31CF-3827-A972-408042C977F8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Public\Serialize\Legacy">
+      <UniqueIdentifier>{C5F76B98-E864-3D1C-ACEB-1047852E9DE3}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Public\Serialize\Legacy\GenManualSerializerHelper.h">
+      <Filter>Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Public\Serialize\Legacy</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Public\Utilities">
+      <UniqueIdentifier>{46A37095-33D0-3584-808D-284F998CDF9B}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Public\Utilities\GenGlobalDefinitions.h">
+      <Filter>Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Public\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Public\Utilities\GenUtils.h">
+      <Filter>Plugins\UnrealGenAISupport-main\Source\GenerativeAISupport\Public\Utilities</Filter>
+    </ClInclude>
+    <Filter Include="Source\Public_Speaking">
+      <UniqueIdentifier>{204E6124-844F-328C-8E09-88EC6F1257D9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Public_Speaking\MyPawn.cpp">
+      <Filter>Source\Public_Speaking</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Public_Speaking\MyPawn.h">
+      <Filter>Source\Public_Speaking</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Public_Speaking\Public_Speaking.Build.cs">
+      <Filter>Source\Public_Speaking</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Public_Speaking\Public_Speaking.cpp">
+      <Filter>Source\Public_Speaking</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Public_Speaking\Public_Speaking.h">
+      <Filter>Source\Public_Speaking</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
