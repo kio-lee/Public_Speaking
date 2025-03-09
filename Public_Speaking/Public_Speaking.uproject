@@ -3,6 +3,16 @@
 	"EngineAssociation": "5.4",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "Public_Speaking",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "OpenXR",
@@ -72,6 +82,15 @@
 		{
 			"Name": "TextToSpeech",
 			"Enabled": true
+		},
+		{
+			"Name": "OpenAIAPI",
+			"Enabled": false
+		},
+		{
+			"Name": "AzSpeech",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/94ad3e51c6f443718cdb312b48742bb3"
 		}
 	],
 	"TargetPlatforms": [

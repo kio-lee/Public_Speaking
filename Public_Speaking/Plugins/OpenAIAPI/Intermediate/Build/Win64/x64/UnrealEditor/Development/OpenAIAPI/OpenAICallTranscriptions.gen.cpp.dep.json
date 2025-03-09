@@ -1,0 +1,20 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\projects\\unreal_projects\\public_speaking\\public_speaking\\plugins\\openaiapi\\intermediate\\build\\win64\\unrealeditor\\inc\\openaiapi\\uht\\openaicalltranscriptions.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\projects\\unreal_projects\\public_speaking\\public_speaking\\intermediate\\build\\win64\\x64\\public_speakingeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\projects\\unreal_projects\\public_speaking\\public_speaking\\plugins\\openaiapi\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\openaiapi\\definitions.openaiapi.h",
+            "d:\\projects\\unreal_projects\\public_speaking\\public_speaking\\plugins\\openaiapi\\source\\openaiapi\\public\\openaicalltranscriptions.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\kismet\\blueprintasyncactionbase.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\blueprintasyncactionbase.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\online\\http\\public\\httpmodule.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\online\\http\\public\\interfaces\\ihttprequest.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\online\\http\\public\\interfaces\\ihttpbase.h",
+            "d:\\projects\\unreal_projects\\public_speaking\\public_speaking\\plugins\\openaiapi\\intermediate\\build\\win64\\unrealeditor\\inc\\openaiapi\\uht\\openaicalltranscriptions.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
