@@ -3002,6 +3002,26 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/AzSpeech/Binaries/Win64/UnrealEditor-AzSpeech.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/AzSpeech/Binaries/Win64/UnrealEditor-AzSpeech.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/AzSpeech/Binaries/Win64/UnrealEditor-AzSpeechEditor.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/AzSpeech/Binaries/Win64/UnrealEditor-AzSpeechEditor.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/AzSpeech/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Marketplace/Developer/RiderLink/Binaries/Win64/UnrealEditor-RD.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -4275,18 +4295,6 @@
 		},
 		{
 			"Path": "$(ProjectDir)/Binaries/Win64/UnrealEditor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/OpenAIAPI/Binaries/Win64/UnrealEditor-OpenAIAPI.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/OpenAIAPI/Binaries/Win64/UnrealEditor-OpenAIAPI.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/OpenAIAPI/Binaries/Win64/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -27120,6 +27128,34 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/AzSpeech/AzSpeech.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/AzSpeech/Binaries/Win64/Microsoft.CognitiveServices.Speech.core.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/AzSpeech/Binaries/Win64/Microsoft.CognitiveServices.Speech.extension.audio.sys.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/AzSpeech/Binaries/Win64/Microsoft.CognitiveServices.Speech.extension.codec.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/AzSpeech/Binaries/Win64/Microsoft.CognitiveServices.Speech.extension.kws.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/AzSpeech/Binaries/Win64/Microsoft.CognitiveServices.Speech.extension.kws.ort.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/AzSpeech/Binaries/Win64/Microsoft.CognitiveServices.Speech.extension.lu.dll",
+			"Type": "NonUFS"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Marketplace/Developer/RiderLink/RiderLink.uplugin",
 			"Type": "UFS"
 		},
@@ -27452,10 +27488,6 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(ProjectDir)/Plugins/OpenAIAPI/OpenAIAPI.uplugin",
-			"Type": "UFS"
-		},
-		{
 			"Path": "$(ProjectDir)/Plugins/UnrealGenAISupport-main/GenerativeAISupport.uplugin",
 			"Type": "UFS"
 		},
@@ -27491,6 +27523,7 @@
 		"AudioWidgets",
 		"AutomationUtils",
 		"AvfMedia",
+		"AzSpeech",
 		"BackChannel",
 		"BaseCharacterFXEditor",
 		"BlendSpaceMotionAnalysis",
@@ -27601,7 +27634,6 @@
 		"OnlineSubsystemNull",
 		"OnlineSubsystemUtils",
 		"OodleNetwork",
-		"OpenAIAPI",
 		"OpenColorIO",
 		"OpenImageDenoise",
 		"OpenXR",
