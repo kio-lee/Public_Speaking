@@ -1299,3 +1299,6 @@ The following settings have been applied:
 [2025.03.20-15.40.05:308][395]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 366.444702
 [2025.03.20-15.40.06:309][398]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.03.20-15.40.06:309][398]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 367.114502, Update Interval: 329.918518
+[2025.03.20-15.45.38:706][395]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 699.842346
+[2025.03.20-15.45.39:707][398]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.20-15.45.39:707][398]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 700.509338, Update Interval: 334.007385
