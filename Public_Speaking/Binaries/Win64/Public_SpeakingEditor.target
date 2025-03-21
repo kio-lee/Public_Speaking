@@ -42,10 +42,6 @@
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/Win64/EOSSDK-Win64-Shipping.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
 			"Path": "$(EngineDir)/Binaries/Win64/OpenColorIO_2_3.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -2906,18 +2902,6 @@
 			"Type": "RequiredResource"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Fab/Binaries/Win64/UnrealEditor-Fab.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Fab/Binaries/Win64/UnrealEditor-Fab.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Fab/Binaries/Win64/UnrealEditor.modules",
-			"Type": "RequiredResource"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/FastBuildController/Binaries/Win64/UnrealEditor-FastBuildController.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -2999,6 +2983,26 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Interchange/Runtime/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/AzSpeech/Binaries/Win64/UnrealEditor-AzSpeech.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/AzSpeech/Binaries/Win64/UnrealEditor-AzSpeech.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/AzSpeech/Binaries/Win64/UnrealEditor-AzSpeechEditor.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/AzSpeech/Binaries/Win64/UnrealEditor-AzSpeechEditor.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/AzSpeech/Binaries/Win64/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -3555,14 +3559,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/NNE/NNERuntimeORT/Binaries/Win64/UnrealEditor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Online/EOSShared/Binaries/Win64/UnrealEditor-EOSShared.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Online/EOSShared/Binaries/Win64/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -4278,15 +4274,71 @@
 			"Type": "RequiredResource"
 		},
 		{
-			"Path": "$(ProjectDir)/Plugins/OpenAIAPI/Binaries/Win64/UnrealEditor-OpenAIAPI.dll",
+			"Path": "$(ProjectDir)/Plugins/CLISystem-Unreal/Binaries/Win64/UnrealEditor-CLISystem.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(ProjectDir)/Plugins/OpenAIAPI/Binaries/Win64/UnrealEditor-OpenAIAPI.pdb",
+			"Path": "$(ProjectDir)/Plugins/CLISystem-Unreal/Binaries/Win64/UnrealEditor-CLISystem.pdb",
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(ProjectDir)/Plugins/OpenAIAPI/Binaries/Win64/UnrealEditor.modules",
+			"Path": "$(ProjectDir)/Plugins/CLISystem-Unreal/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/PiperCLI-Unreal/Binaries/Win64/UnrealEditor-PiperCLI.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/PiperCLI-Unreal/Binaries/Win64/UnrealEditor-PiperCLI.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/PiperCLI-Unreal/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/SocketIOClient/Binaries/Win64/UnrealEditor-CoreUtility.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/SocketIOClient/Binaries/Win64/UnrealEditor-CoreUtility.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/SocketIOClient/Binaries/Win64/UnrealEditor-SIOJEditorPlugin.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/SocketIOClient/Binaries/Win64/UnrealEditor-SIOJEditorPlugin.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/SocketIOClient/Binaries/Win64/UnrealEditor-SIOJson.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/SocketIOClient/Binaries/Win64/UnrealEditor-SIOJson.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/SocketIOClient/Binaries/Win64/UnrealEditor-SocketIOClient.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/SocketIOClient/Binaries/Win64/UnrealEditor-SocketIOClient.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/SocketIOClient/Binaries/Win64/UnrealEditor-SocketIOLib.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/SocketIOClient/Binaries/Win64/UnrealEditor-SocketIOLib.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/SocketIOClient/Binaries/Win64/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -23792,10 +23844,6 @@
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/Win64/EOSSDK-Win64-Shipping.dll",
-			"Type": "NonUFS"
-		},
-		{
 			"Path": "$(EngineDir)/Binaries/Win64/EpicWebHelper.exe",
 			"Type": "NonUFS"
 		},
@@ -27100,10 +27148,6 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Fab/Fab.uplugin",
-			"Type": "UFS"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/FastBuildController/FastBuildController.uplugin",
 			"Type": "UFS"
 		},
@@ -27118,6 +27162,34 @@
 		{
 			"Path": "$(EngineDir)/Plugins/Interchange/Runtime/Interchange.uplugin",
 			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/AzSpeech/AzSpeech.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/AzSpeech/Binaries/Win64/Microsoft.CognitiveServices.Speech.core.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/AzSpeech/Binaries/Win64/Microsoft.CognitiveServices.Speech.extension.audio.sys.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/AzSpeech/Binaries/Win64/Microsoft.CognitiveServices.Speech.extension.codec.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/AzSpeech/Binaries/Win64/Microsoft.CognitiveServices.Speech.extension.kws.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/AzSpeech/Binaries/Win64/Microsoft.CognitiveServices.Speech.extension.kws.ort.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/AzSpeech/Binaries/Win64/Microsoft.CognitiveServices.Speech.extension.lu.dll",
+			"Type": "NonUFS"
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Marketplace/Developer/RiderLink/RiderLink.uplugin",
@@ -27205,10 +27277,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Online/EOSShared/EOSShared.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -27452,7 +27520,15 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(ProjectDir)/Plugins/OpenAIAPI/OpenAIAPI.uplugin",
+			"Path": "$(ProjectDir)/Plugins/CLISystem-Unreal/CLISystem.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/PiperCLI-Unreal/PiperCLI.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/SocketIOClient/SocketIOClient.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -27491,11 +27567,13 @@
 		"AudioWidgets",
 		"AutomationUtils",
 		"AvfMedia",
+		"AzSpeech",
 		"BackChannel",
 		"BaseCharacterFXEditor",
 		"BlendSpaceMotionAnalysis",
 		"BlueprintHeaderView",
 		"Bridge",
+		"CLISystem",
 		"CLionSourceCodeAccess",
 		"CableComponent",
 		"CameraCalibrationCore",
@@ -27530,14 +27608,12 @@
 		"DatasmithContent",
 		"DeformerGraph",
 		"DumpGPUServices",
-		"EOSShared",
 		"EditorDebugTools",
 		"EditorScriptingUtilities",
 		"EngineAssetDefinitions",
 		"EnhancedInput",
 		"EnvironmentQueryEditor",
 		"ExampleDeviceProfileSelector",
-		"Fab",
 		"FacialAnimation",
 		"FastBuildController",
 		"Fracture",
@@ -27601,7 +27677,6 @@
 		"OnlineSubsystemNull",
 		"OnlineSubsystemUtils",
 		"OodleNetwork",
-		"OpenAIAPI",
 		"OpenColorIO",
 		"OpenImageDenoise",
 		"OpenXR",
@@ -27609,6 +27684,7 @@
 		"OpenXRHandTracking",
 		"Paper2D",
 		"PerforceSourceControl",
+		"PiperCLI",
 		"PixWinPlugin",
 		"PlanarCut",
 		"PlasticSourceControl",
@@ -27633,6 +27709,7 @@
 		"SequencerScripting",
 		"SignificanceManager",
 		"SkeletalReduction",
+		"SocketIOClient",
 		"SoundFields",
 		"SpeedTreeImporter",
 		"StructUtils",

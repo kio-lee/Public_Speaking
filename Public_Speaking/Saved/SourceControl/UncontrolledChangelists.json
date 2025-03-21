@@ -5,6 +5,10 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/june/Documents/GitHub/Public_Speaking/Public_Speaking/Content/MetaHumans/Ada/BP_Ada.uasset",
+				"C:/Users/june/Documents/GitHub/Public_Speaking/Public_Speaking/Content/Blueprints/NewPlayerController.uasset",
+				"C:/Users/june/Documents/GitHub/Public_Speaking/Public_Speaking/Content/VRTemplate/Maps/VRTemplateMap.umap",
+				"C:/Users/june/Documents/GitHub/Public_Speaking/Public_Speaking/Content/VRTemplate/Blueprints/VRGameMode.uasset",
 				"D:/Projects/Unreal_Projects/Public_Speaking/Public_Speaking/Content/Demo/LLM/BP_LLMTest.uasset",
 				"D:/Projects/Unreal_Projects/Public_Speaking/Public_Speaking/Content/VRTemplate/Maps/VRTemplateMap.umap",
 				"D:/Projects/Unreal_Projects/Public_Speaking/Public_Speaking/Content/Demo/STT/NewSoundWave.uasset",
