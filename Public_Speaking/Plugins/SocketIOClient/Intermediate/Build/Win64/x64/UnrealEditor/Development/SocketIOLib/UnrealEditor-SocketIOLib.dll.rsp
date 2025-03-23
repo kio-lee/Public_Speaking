@@ -21,7 +21,7 @@
 /ALTERNATENAME:__imp___std_init_once_complete=__imp_InitOnceComplete
 /DELAYLOAD:"d3d12.dll"
 /DELAYLOAD:"DBGHELP.DLL"
-/LIBPATH:"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\lib\x64"
+/LIBPATH:"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\lib\x64"
 /LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\ucrt\x64"
 /LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x64"
 /NODEFAULTLIB:"LIBCMT"
@@ -35,9 +35,9 @@
 /NODEFAULTLIB:"LIBCD"
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN:6
-"C:\Users\june\Documents\GitHub\Public_Speaking\Public_Speaking\Intermediate\Build\Win64\x64\Public_SpeakingEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.RTTI.ValApi.Cpp20.InclOrderOldest.h.obj"
-"C:\Users\june\Documents\GitHub\Public_Speaking\Public_Speaking\Plugins\SocketIOClient\Intermediate\Build\Win64\x64\UnrealEditor\Development\SocketIOLib\Module.SocketIOLib.cpp.obj"
-"C:\Users\june\Documents\GitHub\Public_Speaking\Public_Speaking\Plugins\SocketIOClient\Intermediate\Build\Win64\x64\UnrealEditor\Development\SocketIOLib\Default.rc2.res"
+"D:\Projects\Unreal_Projects\Public_Speaking\Public_Speaking\Intermediate\Build\Win64\x64\Public_SpeakingEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.RTTI.ValApi.Cpp20.InclOrderOldest.h.obj"
+"D:\Projects\Unreal_Projects\Public_Speaking\Public_Speaking\Plugins\SocketIOClient\Intermediate\Build\Win64\x64\UnrealEditor\Development\SocketIOLib\Module.SocketIOLib.cpp.obj"
+"D:\Projects\Unreal_Projects\Public_Speaking\Public_Speaking\Plugins\SocketIOClient\Intermediate\Build\Win64\x64\UnrealEditor\Development\SocketIOLib\Default.rc2.res"
 "ThirdParty\OpenSSL\1.1.1t\lib\Win64\VS2015\Release\libssl.lib"
 "ThirdParty\OpenSSL\1.1.1t\lib\Win64\VS2015\Release\libcrypto.lib"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\CoreUObject\UnrealEditor-CoreUObject.lib"
@@ -70,7 +70,7 @@
 "dwmapi.lib"
 "imm32.lib"
 "crypt32.lib"
-/OUT:"C:\Users\june\Documents\GitHub\Public_Speaking\Public_Speaking\Plugins\SocketIOClient\Binaries\Win64\UnrealEditor-SocketIOLib.dll"
-/IMPLIB:"C:\Users\june\Documents\GitHub\Public_Speaking\Public_Speaking\Plugins\SocketIOClient\Intermediate\Build\Win64\x64\UnrealEditor\Development\SocketIOLib\UnrealEditor-SocketIOLib.sup.lib"
-/PDB:"C:\Users\june\Documents\GitHub\Public_Speaking\Public_Speaking\Plugins\SocketIOClient\Binaries\Win64\UnrealEditor-SocketIOLib.pdb"
+/OUT:"D:\Projects\Unreal_Projects\Public_Speaking\Public_Speaking\Plugins\SocketIOClient\Binaries\Win64\UnrealEditor-SocketIOLib.dll"
+/IMPLIB:"D:\Projects\Unreal_Projects\Public_Speaking\Public_Speaking\Plugins\SocketIOClient\Intermediate\Build\Win64\x64\UnrealEditor\Development\SocketIOLib\UnrealEditor-SocketIOLib.sup.lib"
+/PDB:"D:\Projects\Unreal_Projects\Public_Speaking\Public_Speaking\Plugins\SocketIOClient\Binaries\Win64\UnrealEditor-SocketIOLib.pdb"
 /ignore:4078

@@ -17,7 +17,7 @@ class USIOJsonValue;
 #endif
 #define SIOJSON_SIOJsonObject_generated_h
 
-#define FID_Users_june_Documents_GitHub_Public_Speaking_Public_Speaking_Plugins_SocketIOClient_Source_SIOJson_Public_SIOJsonObject_h_20_RPC_WRAPPERS \
+#define FID_Public_Speaking_Plugins_SocketIOClient_Source_SIOJson_Public_SIOJsonObject_h_20_RPC_WRAPPERS \
 	DECLARE_FUNCTION(execSetObjectArrayField); \
 	DECLARE_FUNCTION(execGetObjectArrayField); \
 	DECLARE_FUNCTION(execSetBoolArrayField); \
@@ -51,7 +51,7 @@ class USIOJsonValue;
 	DECLARE_FUNCTION(execConstructJsonObject);
 
 
-#define FID_Users_june_Documents_GitHub_Public_Speaking_Public_Speaking_Plugins_SocketIOClient_Source_SIOJson_Public_SIOJsonObject_h_20_INCLASS \
+#define FID_Public_Speaking_Plugins_SocketIOClient_Source_SIOJson_Public_SIOJsonObject_h_20_INCLASS \
 private: \
 	static void StaticRegisterNativesUSIOJsonObject(); \
 	friend struct Z_Construct_UClass_USIOJsonObject_Statics; \
@@ -60,7 +60,7 @@ public: \
 	DECLARE_SERIALIZER(USIOJsonObject)
 
 
-#define FID_Users_june_Documents_GitHub_Public_Speaking_Public_Speaking_Plugins_SocketIOClient_Source_SIOJson_Public_SIOJsonObject_h_20_STANDARD_CONSTRUCTORS \
+#define FID_Public_Speaking_Plugins_SocketIOClient_Source_SIOJson_Public_SIOJsonObject_h_20_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API USIOJsonObject(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USIOJsonObject) \
@@ -74,13 +74,13 @@ public: \
 	NO_API virtual ~USIOJsonObject();
 
 
-#define FID_Users_june_Documents_GitHub_Public_Speaking_Public_Speaking_Plugins_SocketIOClient_Source_SIOJson_Public_SIOJsonObject_h_17_PROLOG
-#define FID_Users_june_Documents_GitHub_Public_Speaking_Public_Speaking_Plugins_SocketIOClient_Source_SIOJson_Public_SIOJsonObject_h_20_GENERATED_BODY_LEGACY \
+#define FID_Public_Speaking_Plugins_SocketIOClient_Source_SIOJson_Public_SIOJsonObject_h_17_PROLOG
+#define FID_Public_Speaking_Plugins_SocketIOClient_Source_SIOJson_Public_SIOJsonObject_h_20_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_june_Documents_GitHub_Public_Speaking_Public_Speaking_Plugins_SocketIOClient_Source_SIOJson_Public_SIOJsonObject_h_20_RPC_WRAPPERS \
-	FID_Users_june_Documents_GitHub_Public_Speaking_Public_Speaking_Plugins_SocketIOClient_Source_SIOJson_Public_SIOJsonObject_h_20_INCLASS \
-	FID_Users_june_Documents_GitHub_Public_Speaking_Public_Speaking_Plugins_SocketIOClient_Source_SIOJson_Public_SIOJsonObject_h_20_STANDARD_CONSTRUCTORS \
+	FID_Public_Speaking_Plugins_SocketIOClient_Source_SIOJson_Public_SIOJsonObject_h_20_RPC_WRAPPERS \
+	FID_Public_Speaking_Plugins_SocketIOClient_Source_SIOJson_Public_SIOJsonObject_h_20_INCLASS \
+	FID_Public_Speaking_Plugins_SocketIOClient_Source_SIOJson_Public_SIOJsonObject_h_20_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -88,7 +88,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> SIOJSON_API UClass* StaticClass<class USIOJsonObject>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_june_Documents_GitHub_Public_Speaking_Public_Speaking_Plugins_SocketIOClient_Source_SIOJson_Public_SIOJsonObject_h
+#define CURRENT_FILE_ID FID_Public_Speaking_Plugins_SocketIOClient_Source_SIOJson_Public_SIOJsonObject_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

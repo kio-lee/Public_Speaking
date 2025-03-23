@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define SIOJSON_SIOJConvert_generated_h
 
-#define FID_Users_june_Documents_GitHub_Public_Speaking_Public_Speaking_Plugins_SocketIOClient_Source_SIOJson_Public_SIOJConvert_h_27_INCLASS_NO_PURE_DECLS \
+#define FID_Public_Speaking_Plugins_SocketIOClient_Source_SIOJson_Public_SIOJConvert_h_27_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUSIOJConvert(); \
 	friend struct Z_Construct_UClass_USIOJConvert_Statics; \
@@ -23,7 +23,7 @@ public: \
 	DECLARE_SERIALIZER(USIOJConvert)
 
 
-#define FID_Users_june_Documents_GitHub_Public_Speaking_Public_Speaking_Plugins_SocketIOClient_Source_SIOJson_Public_SIOJConvert_h_27_ENHANCED_CONSTRUCTORS \
+#define FID_Public_Speaking_Plugins_SocketIOClient_Source_SIOJson_Public_SIOJConvert_h_27_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API USIOJConvert(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 private: \
@@ -37,12 +37,12 @@ public: \
 	NO_API virtual ~USIOJConvert();
 
 
-#define FID_Users_june_Documents_GitHub_Public_Speaking_Public_Speaking_Plugins_SocketIOClient_Source_SIOJson_Public_SIOJConvert_h_24_PROLOG
-#define FID_Users_june_Documents_GitHub_Public_Speaking_Public_Speaking_Plugins_SocketIOClient_Source_SIOJson_Public_SIOJConvert_h_27_GENERATED_BODY \
+#define FID_Public_Speaking_Plugins_SocketIOClient_Source_SIOJson_Public_SIOJConvert_h_24_PROLOG
+#define FID_Public_Speaking_Plugins_SocketIOClient_Source_SIOJson_Public_SIOJConvert_h_27_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_june_Documents_GitHub_Public_Speaking_Public_Speaking_Plugins_SocketIOClient_Source_SIOJson_Public_SIOJConvert_h_27_INCLASS_NO_PURE_DECLS \
-	FID_Users_june_Documents_GitHub_Public_Speaking_Public_Speaking_Plugins_SocketIOClient_Source_SIOJson_Public_SIOJConvert_h_27_ENHANCED_CONSTRUCTORS \
+	FID_Public_Speaking_Plugins_SocketIOClient_Source_SIOJson_Public_SIOJConvert_h_27_INCLASS_NO_PURE_DECLS \
+	FID_Public_Speaking_Plugins_SocketIOClient_Source_SIOJson_Public_SIOJConvert_h_27_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -50,7 +50,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> SIOJSON_API UClass* StaticClass<class USIOJConvert>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_june_Documents_GitHub_Public_Speaking_Public_Speaking_Plugins_SocketIOClient_Source_SIOJson_Public_SIOJConvert_h
+#define CURRENT_FILE_ID FID_Public_Speaking_Plugins_SocketIOClient_Source_SIOJson_Public_SIOJConvert_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
