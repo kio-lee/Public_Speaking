@@ -4298,74 +4298,6 @@
 			"Type": "RequiredResource"
 		},
 		{
-			"Path": "$(ProjectDir)/Plugins/CLISystem-Unreal/Binaries/Win64/UnrealEditor-CLISystem.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/CLISystem-Unreal/Binaries/Win64/UnrealEditor-CLISystem.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/CLISystem-Unreal/Binaries/Win64/UnrealEditor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/PiperCLI-Unreal/Binaries/Win64/UnrealEditor-PiperCLI.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/PiperCLI-Unreal/Binaries/Win64/UnrealEditor-PiperCLI.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/PiperCLI-Unreal/Binaries/Win64/UnrealEditor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/SocketIOClient/Binaries/Win64/UnrealEditor-CoreUtility.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/SocketIOClient/Binaries/Win64/UnrealEditor-CoreUtility.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/SocketIOClient/Binaries/Win64/UnrealEditor-SIOJEditorPlugin.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/SocketIOClient/Binaries/Win64/UnrealEditor-SIOJEditorPlugin.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/SocketIOClient/Binaries/Win64/UnrealEditor-SIOJson.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/SocketIOClient/Binaries/Win64/UnrealEditor-SIOJson.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/SocketIOClient/Binaries/Win64/UnrealEditor-SocketIOClient.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/SocketIOClient/Binaries/Win64/UnrealEditor-SocketIOClient.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/SocketIOClient/Binaries/Win64/UnrealEditor-SocketIOLib.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/SocketIOClient/Binaries/Win64/UnrealEditor-SocketIOLib.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/SocketIOClient/Binaries/Win64/UnrealEditor.modules",
-			"Type": "RequiredResource"
-		},
-		{
 			"Path": "$(ProjectDir)/Plugins/UnrealGenAISupport-main/Binaries/Win64/UnrealEditor-GenerativeAISupport.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -27556,18 +27488,6 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(ProjectDir)/Plugins/CLISystem-Unreal/CLISystem.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/PiperCLI-Unreal/PiperCLI.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/SocketIOClient/SocketIOClient.uplugin",
-			"Type": "UFS"
-		},
-		{
 			"Path": "$(ProjectDir)/Plugins/UnrealGenAISupport-main/GenerativeAISupport.uplugin",
 			"Type": "UFS"
 		},
@@ -27609,7 +27529,6 @@
 		"BlendSpaceMotionAnalysis",
 		"BlueprintHeaderView",
 		"Bridge",
-		"CLISystem",
 		"CLionSourceCodeAccess",
 		"CableComponent",
 		"CameraCalibrationCore",
@@ -27722,7 +27641,6 @@
 		"OpenXRHandTracking",
 		"Paper2D",
 		"PerforceSourceControl",
-		"PiperCLI",
 		"PixWinPlugin",
 		"PlanarCut",
 		"PlasticSourceControl",
@@ -27747,7 +27665,6 @@
 		"SequencerScripting",
 		"SignificanceManager",
 		"SkeletalReduction",
-		"SocketIOClient",
 		"SoundFields",
 		"SpeedTreeImporter",
 		"StructUtils",
