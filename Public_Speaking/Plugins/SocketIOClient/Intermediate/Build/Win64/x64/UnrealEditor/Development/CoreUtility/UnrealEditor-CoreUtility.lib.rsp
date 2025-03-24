@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-CoreUtility.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Projects\Unreal_Projects\Public_Speaking\Public_Speaking\Intermediate\Build\Win64\x64\Public_SpeakingEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderOldest.h.obj"
+"D:\Projects\Unreal_Projects\Public_Speaking\Public_Speaking\Plugins\SocketIOClient\Intermediate\Build\Win64\x64\UnrealEditor\Development\CoreUtility\Module.CoreUtility.cpp.obj"
+"D:\Projects\Unreal_Projects\Public_Speaking\Public_Speaking\Plugins\SocketIOClient\Intermediate\Build\Win64\x64\UnrealEditor\Development\CoreUtility\CoreUtility.init.gen.cpp.obj"
+"D:\Projects\Unreal_Projects\Public_Speaking\Public_Speaking\Plugins\SocketIOClient\Intermediate\Build\Win64\x64\UnrealEditor\Development\CoreUtility\CUBlueprintLibrary.gen.cpp.obj"
+"D:\Projects\Unreal_Projects\Public_Speaking\Public_Speaking\Plugins\SocketIOClient\Intermediate\Build\Win64\x64\UnrealEditor\Development\CoreUtility\CUFileComponent.gen.cpp.obj"
+"D:\Projects\Unreal_Projects\Public_Speaking\Public_Speaking\Plugins\SocketIOClient\Intermediate\Build\Win64\x64\UnrealEditor\Development\CoreUtility\CUFileSubsystem.gen.cpp.obj"
+"D:\Projects\Unreal_Projects\Public_Speaking\Public_Speaking\Plugins\SocketIOClient\Intermediate\Build\Win64\x64\UnrealEditor\Development\CoreUtility\Default.rc2.res"
+/OUT:"D:\Projects\Unreal_Projects\Public_Speaking\Public_Speaking\Plugins\SocketIOClient\Intermediate\Build\Win64\x64\UnrealEditor\Development\CoreUtility\UnrealEditor-CoreUtility.lib"

@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-SIOJEditorPlugin.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Projects\Unreal_Projects\Public_Speaking\Public_Speaking\Intermediate\Build\Win64\x64\Public_SpeakingEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderOldest.h.obj"
+"D:\Projects\Unreal_Projects\Public_Speaking\Public_Speaking\Plugins\SocketIOClient\Intermediate\Build\Win64\x64\UnrealEditor\Development\SIOJEditorPlugin\Module.SIOJEditorPlugin.cpp.obj"
+"D:\Projects\Unreal_Projects\Public_Speaking\Public_Speaking\Plugins\SocketIOClient\Intermediate\Build\Win64\x64\UnrealEditor\Development\SIOJEditorPlugin\SIOJEditorPlugin.init.gen.cpp.obj"
+"D:\Projects\Unreal_Projects\Public_Speaking\Public_Speaking\Plugins\SocketIOClient\Intermediate\Build\Win64\x64\UnrealEditor\Development\SIOJEditorPlugin\SIOJ_BreakJson.gen.cpp.obj"
+"D:\Projects\Unreal_Projects\Public_Speaking\Public_Speaking\Plugins\SocketIOClient\Intermediate\Build\Win64\x64\UnrealEditor\Development\SIOJEditorPlugin\Default.rc2.res"
+/OUT:"D:\Projects\Unreal_Projects\Public_Speaking\Public_Speaking\Plugins\SocketIOClient\Intermediate\Build\Win64\x64\UnrealEditor\Development\SIOJEditorPlugin\UnrealEditor-SIOJEditorPlugin.lib"

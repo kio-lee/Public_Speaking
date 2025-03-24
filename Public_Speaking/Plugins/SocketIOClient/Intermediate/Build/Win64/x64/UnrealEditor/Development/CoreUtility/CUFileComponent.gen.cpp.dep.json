@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\projects\\unreal_projects\\public_speaking\\public_speaking\\plugins\\socketioclient\\intermediate\\build\\win64\\unrealeditor\\inc\\coreutility\\uht\\cufilecomponent.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\projects\\unreal_projects\\public_speaking\\public_speaking\\intermediate\\build\\win64\\x64\\public_speakingeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderoldest.h.pch",
+        "Includes": [
+            "d:\\projects\\unreal_projects\\public_speaking\\public_speaking\\plugins\\socketioclient\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\coreutility\\definitions.coreutility.h",
+            "d:\\projects\\unreal_projects\\public_speaking\\public_speaking\\plugins\\socketioclient\\source\\coreutility\\public\\cufilecomponent.h",
+            "d:\\projects\\unreal_projects\\public_speaking\\public_speaking\\plugins\\socketioclient\\intermediate\\build\\win64\\unrealeditor\\inc\\coreutility\\uht\\cufilecomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

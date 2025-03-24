@@ -1,0 +1,25 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\projects\\unreal_projects\\public_speaking\\public_speaking\\plugins\\socketioclient\\intermediate\\build\\win64\\unrealeditor\\inc\\siojson\\uht\\siojrequestjson.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\projects\\unreal_projects\\public_speaking\\public_speaking\\intermediate\\build\\win64\\x64\\public_speakingeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderoldest.h.pch",
+        "Includes": [
+            "d:\\projects\\unreal_projects\\public_speaking\\public_speaking\\plugins\\socketioclient\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\siojson\\definitions.siojson.h",
+            "d:\\projects\\unreal_projects\\public_speaking\\public_speaking\\plugins\\socketioclient\\source\\siojson\\public\\siojrequestjson.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\online\\http\\public\\http.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\online\\http\\public\\httpmodule.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\online\\http\\public\\interfaces\\ihttprequest.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\online\\http\\public\\interfaces\\ihttpbase.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\online\\http\\public\\interfaces\\ihttpresponse.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\online\\http\\public\\platformhttp.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\online\\http\\public\\windows\\windowsplatformhttp.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\online\\http\\public\\genericplatform\\genericplatformhttp.h",
+            "d:\\projects\\unreal_projects\\public_speaking\\public_speaking\\plugins\\socketioclient\\source\\coreutility\\public\\culambdarunnable.h",
+            "d:\\projects\\unreal_projects\\public_speaking\\public_speaking\\plugins\\socketioclient\\source\\siojson\\public\\siojtypes.h",
+            "d:\\projects\\unreal_projects\\public_speaking\\public_speaking\\plugins\\socketioclient\\intermediate\\build\\win64\\unrealeditor\\inc\\siojson\\uht\\siojrequestjson.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
