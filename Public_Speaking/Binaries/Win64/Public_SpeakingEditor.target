@@ -30,6 +30,14 @@
 			"Type": "SymbolFile"
 		},
 		{
+			"Path": "$(EngineDir)/Binaries/Win64/Android/UnrealEditor-AndroidRuntimeSettings.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Win64/Android/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(EngineDir)/Binaries/Win64/D3D12/D3D12Core.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -4319,6 +4327,26 @@
 		},
 		{
 			"Path": "$(ProjectDir)/Plugins/PiperCLI-Unreal/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/RuntimeAudioImporter/Binaries/Win64/UnrealEditor-RuntimeAudioImporter.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/RuntimeAudioImporter/Binaries/Win64/UnrealEditor-RuntimeAudioImporter.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/RuntimeAudioImporter/Binaries/Win64/UnrealEditor-RuntimeAudioImporterEditor.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/RuntimeAudioImporter/Binaries/Win64/UnrealEditor-RuntimeAudioImporterEditor.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/RuntimeAudioImporter/Binaries/Win64/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -27564,6 +27592,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(ProjectDir)/Plugins/RuntimeAudioImporter/RuntimeAudioImporter.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(ProjectDir)/Plugins/SocketIOClient/SocketIOClient.uplugin",
 			"Type": "UFS"
 		},
@@ -27742,6 +27774,7 @@
 		"RiderSourceCodeAccess",
 		"RigLogic",
 		"RigVM",
+		"RuntimeAudioImporter",
 		"SQLiteCore",
 		"SequencerAnimTools",
 		"SequencerScripting",

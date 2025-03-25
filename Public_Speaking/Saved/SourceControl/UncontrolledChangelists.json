@@ -5,18 +5,10 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"D:/Projects/Unreal_Projects/Public_Speaking/Public_Speaking/Content/StarterContent/Architecture/Floor_400x400.uasset",
-				"D:/Projects/Unreal_Projects/Public_Speaking/Public_Speaking/Content/Blueprints/NewPlayerController.uasset",
-				"D:/Projects/Unreal_Projects/Public_Speaking/Public_Speaking/Content/VRTemplate/Maps/VRTemplateMap.umap",
-				"D:/Projects/Unreal_Projects/Public_Speaking/Public_Speaking/Content/MetaHumans/Ada/BP_Ada.uasset",
-				"D:/Projects/Unreal_Projects/Public_Speaking/Public_Speaking/Content/Demo/speaker_0.uasset",
-				"D:/Projects/Unreal_Projects/Public_Speaking/Public_Speaking/Content/Demo/LLM/BP_LLMTest.uasset",
-				"D:/Projects/Unreal_Projects/Public_Speaking/Public_Speaking/Content/MetaHumans/Common/Face/Face_AnimBP.uasset",
-				"D:/Projects/Unreal_Projects/Public_Speaking/Public_Speaking/Content/Demo/speaker_0_Lipsync.uasset",
-				"D:/Projects/Unreal_Projects/Public_Speaking/Public_Speaking/Content/Demo/speaker_0_Lipsync1.uasset",
-				"D:/Projects/Unreal_Projects/Public_Speaking/Public_Speaking/Content/Demo/speaker_0_Lipsync2.uasset",
-				"D:/Projects/Unreal_Projects/Public_Speaking/Public_Speaking/Content/Demo/NewCustomCurvesMappingAsset.uasset",
+				"D:/Projects/Unreal_Projects/Public_Speaking/Public_Speaking/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
 				"D:/Projects/Unreal_Projects/Public_Speaking/Public_Speaking/Content/Demo/LLM/BP_SpeechRecognizer.uasset",
+				"D:/Projects/Unreal_Projects/Public_Speaking/Public_Speaking/Content/MetaHumans/Ada/BP_Ada.uasset",
+				"D:/Projects/Unreal_Projects/Public_Speaking/Public_Speaking/Content/VRTemplate/Maps/VRTemplateMap.umap",
 				"D:/Projects/Unreal_Projects/Public_Speaking/Public_Speaking/Content/Demo/STT/output.uasset"
 			]
 		}
