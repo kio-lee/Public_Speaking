@@ -3010,6 +3010,18 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/JsonBlueprintUtilities/Binaries/Win64/UnrealEditor-JsonBlueprintGraph.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/JsonBlueprintUtilities/Binaries/Win64/UnrealEditor-JsonBlueprintUtilities.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/JsonBlueprintUtilities/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Marketplace/AzSpeech/Binaries/Win64/UnrealEditor-AzSpeech.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -3367,6 +3379,26 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Marketplace/MetaHuman/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/VaRestRee7145bf0b1deV3/Binaries/Win64/UnrealEditor-VaRest.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/VaRestRee7145bf0b1deV3/Binaries/Win64/UnrealEditor-VaRest.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/VaRestRee7145bf0b1deV3/Binaries/Win64/UnrealEditor-VaRestEditor.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/VaRestRee7145bf0b1deV3/Binaries/Win64/UnrealEditor-VaRestEditor.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/VaRestRee7145bf0b1deV3/Binaries/Win64/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -4267,6 +4299,18 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/VirtualProduction/Takes/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Web/HttpBlueprint/Binaries/Win64/UnrealEditor-HttpBlueprint.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Web/HttpBlueprint/Binaries/Win64/UnrealEditor-HttpBlueprintGraph.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Web/HttpBlueprint/Binaries/Win64/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -27224,6 +27268,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/JsonBlueprintUtilities/JsonBlueprintUtilities.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Marketplace/AzSpeech/AzSpeech.uplugin",
 			"Type": "UFS"
 		},
@@ -27261,6 +27309,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Marketplace/MetaHuman/MetaHuman.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/VaRestRee7145bf0b1deV3/VaRest.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -27576,6 +27628,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Web/HttpBlueprint/HttpBlueprint.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/WorldMetrics/WorldMetrics.uplugin",
 			"Type": "UFS"
 		},
@@ -27700,6 +27756,7 @@
 		"GoogleCloudMessaging",
 		"GooglePAD",
 		"HairStrands",
+		"HttpBlueprint",
 		"IKRig",
 		"IOSDeviceProfileSelector",
 		"ImgMedia",
@@ -27707,6 +27764,7 @@
 		"Interchange",
 		"InterchangeEditor",
 		"InterchangeTests",
+		"JsonBlueprintUtilities",
 		"KDevelopSourceCodeAccess",
 		"LauncherChunkInstaller",
 		"LensComponent",
@@ -27798,6 +27856,7 @@
 		"UObjectPlugin",
 		"UVEditor",
 		"UdpMessaging",
+		"VaRest",
 		"VariantManager",
 		"VariantManagerContent",
 		"VisualStudioCodeSourceCodeAccess",
