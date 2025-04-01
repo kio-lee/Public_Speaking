@@ -24,7 +24,7 @@ void ALoggerGameMode::SaveFileToFile() const
 		// We use the LoadFileToString to load the file into
 		if(FFileHelper::SaveStringArrayToFile(Messages,*File))
 		{
-			UE_LOG(LogTemp, Warning, TEXT("FileManipulation: Sucsesfuly Written: \"%d\" FStrings to the text file"),Messages.Num());
+			UE_LOG(LogTemp, Warning, TEXT("FileManipulation: Successfully Written: \"%d\" FStrings to the text file"),Messages.Num());
 		}
 		else
 		{
