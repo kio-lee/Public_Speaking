@@ -91,31 +91,6 @@
 			"Name": "AzSpeech",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/94ad3e51c6f443718cdb312b48742bb3"
-		},
-		{
-			"Name": "HttpBlueprint",
-			"Enabled": true
-		},
-		{
-			"Name": "VaRest",
-			"Enabled": true
-		},
-		{
-			"Name": "ModelingToolsEditorMode",
-			"Enabled": true
-		},
-		{
-			"Name": "RuntimeAudioImporter",
-			"Enabled": false,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/81fd278e318e4235a028d3fdf46bf036"
-		},
-		{
-			"Name": "PiperCLI",
-			"Enabled": false
-		},
-		{
-			"Name": "CLISystem",
-			"Enabled": false
 		}
 	],
 	"TargetPlatforms": [
