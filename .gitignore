@@ -4,3 +4,5 @@
 /Public_Speaking/Plugins/PiperCLI-Unreal/ThirdParty/Piper
 *.log
 /Public_Speaking/Saved/webcache_4430
+/Public_Speaking/Saved/Crashes
+/Public_Speaking/Saved/Config/CrashReportClient

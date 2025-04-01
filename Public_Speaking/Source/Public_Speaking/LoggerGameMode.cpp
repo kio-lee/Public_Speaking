@@ -1,13 +1,11 @@
 // Fill out your copyright notice in the Description page of Project Settings.
-
-
 #include "LoggerGameMode.h"
 #include "Misc/DateTime.h"
+
 void ALoggerGameMode::AddMessage(const FString& Message)
 {
 	const auto Time = FDateTime().Now(); 
-	const FString FormatedString = FString::Printf(TEXT("(%s : %s)"),*Time.ToString() , *Message);
-	Messages.Add(FormatedString);
+	Messages.Add(FString::Printf(TEXT("(%s : %s)"),*Time.ToString() , *Message));
 }
 
 void ALoggerGameMode::SaveFileToFile() const
@@ -17,6 +15,7 @@ void ALoggerGameMode::SaveFileToFile() const
 	File.Append(FString::Printf(TEXT("log%s.log"),*Time.ToString()) );
 
 	IPlatformFile& FileManager = FPlatformFileManager::Get().GetPlatformFile();
+	
 	
 	// Always first check if the file that you want to manipulate exist.
 	if (!FileManager.FileExists(*File))
