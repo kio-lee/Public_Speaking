@@ -16,7 +16,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define SIOJSON_SIOJTypes_generated_h
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Public_Speaking_Plugins_SocketIOClient_Source_SIOJson_Public_SIOJTypes_h
+#define CURRENT_FILE_ID FID_Users_kisv5965_Documents_GitHub_Public_Speaking_Public_Speaking_Plugins_SocketIOClient_Source_SIOJson_Public_SIOJTypes_h
 
 
 #define FOREACH_ENUM_ESIOREQUESTVERB(op) \

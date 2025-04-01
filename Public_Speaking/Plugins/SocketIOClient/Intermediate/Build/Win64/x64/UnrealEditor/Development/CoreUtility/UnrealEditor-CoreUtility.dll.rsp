@@ -37,9 +37,9 @@
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN:6
 /NATVIS:"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\RenderCore\RenderCore.natvis"
-"D:\Projects\Unreal_Projects\Public_Speaking\Public_Speaking\Intermediate\Build\Win64\x64\Public_SpeakingEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderOldest.h.obj"
-"D:\Projects\Unreal_Projects\Public_Speaking\Public_Speaking\Plugins\SocketIOClient\Intermediate\Build\Win64\x64\UnrealEditor\Development\CoreUtility\Module.CoreUtility.cpp.obj"
-"D:\Projects\Unreal_Projects\Public_Speaking\Public_Speaking\Plugins\SocketIOClient\Intermediate\Build\Win64\x64\UnrealEditor\Development\CoreUtility\Default.rc2.res"
+"C:\Users\kisv5965\Documents\GitHub\Public_Speaking\Public_Speaking\Intermediate\Build\Win64\x64\Public_SpeakingEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderOldest.h.obj"
+"C:\Users\kisv5965\Documents\GitHub\Public_Speaking\Public_Speaking\Plugins\SocketIOClient\Intermediate\Build\Win64\x64\UnrealEditor\Development\CoreUtility\Module.CoreUtility.cpp.obj"
+"C:\Users\kisv5965\Documents\GitHub\Public_Speaking\Public_Speaking\Plugins\SocketIOClient\Intermediate\Build\Win64\x64\UnrealEditor\Development\CoreUtility\Default.rc2.res"
 "ThirdParty\libOpus\opus-1.1\Windows\VS2012\x64\Release\speex_resampler.lib"
 "ThirdParty\libOpus\opus-1.3.1-12\bin\Win64\Release\opus.lib"
 "ThirdParty\libOpus\opus-1.3.1-12\bin\Win64\Release\opus_sse41.lib"
@@ -75,7 +75,7 @@
 "synchronization.lib"
 "dwmapi.lib"
 "imm32.lib"
-/OUT:"D:\Projects\Unreal_Projects\Public_Speaking\Public_Speaking\Plugins\SocketIOClient\Binaries\Win64\UnrealEditor-CoreUtility.dll"
-/IMPLIB:"D:\Projects\Unreal_Projects\Public_Speaking\Public_Speaking\Plugins\SocketIOClient\Intermediate\Build\Win64\x64\UnrealEditor\Development\CoreUtility\UnrealEditor-CoreUtility.sup.lib"
-/PDB:"D:\Projects\Unreal_Projects\Public_Speaking\Public_Speaking\Plugins\SocketIOClient\Binaries\Win64\UnrealEditor-CoreUtility.pdb"
+/OUT:"C:\Users\kisv5965\Documents\GitHub\Public_Speaking\Public_Speaking\Plugins\SocketIOClient\Binaries\Win64\UnrealEditor-CoreUtility.dll"
+/IMPLIB:"C:\Users\kisv5965\Documents\GitHub\Public_Speaking\Public_Speaking\Plugins\SocketIOClient\Intermediate\Build\Win64\x64\UnrealEditor\Development\CoreUtility\UnrealEditor-CoreUtility.sup.lib"
+/PDB:"C:\Users\kisv5965\Documents\GitHub\Public_Speaking\Public_Speaking\Plugins\SocketIOClient\Binaries\Win64\UnrealEditor-CoreUtility.pdb"
 /ignore:4078

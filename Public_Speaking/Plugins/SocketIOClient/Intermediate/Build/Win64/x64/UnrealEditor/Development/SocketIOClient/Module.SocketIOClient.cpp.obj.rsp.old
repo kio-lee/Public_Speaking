@@ -1,11 +1,11 @@
-"C:\Users\june\Documents\GitHub\Public_Speaking\Public_Speaking\Plugins\SocketIOClient\Intermediate\Build\Win64\x64\UnrealEditor\Development\SocketIOClient\Module.SocketIOClient.cpp"
-/FI"C:\Users\june\Documents\GitHub\Public_Speaking\Public_Speaking\Intermediate\Build\Win64\x64\Public_SpeakingEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderOldest.h"
-/FI"C:\Users\june\Documents\GitHub\Public_Speaking\Public_Speaking\Plugins\SocketIOClient\Intermediate\Build\Win64\x64\UnrealEditor\Development\SocketIOClient\Definitions.SocketIOClient.h"
-/Yu"C:\Users\june\Documents\GitHub\Public_Speaking\Public_Speaking\Intermediate\Build\Win64\x64\Public_SpeakingEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderOldest.h"
-/Fp"C:\Users\june\Documents\GitHub\Public_Speaking\Public_Speaking\Intermediate\Build\Win64\x64\Public_SpeakingEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderOldest.h.pch"
-/Fo"C:\Users\june\Documents\GitHub\Public_Speaking\Public_Speaking\Plugins\SocketIOClient\Intermediate\Build\Win64\x64\UnrealEditor\Development\SocketIOClient\Module.SocketIOClient.cpp.obj"
-/sourceDependencies "C:\Users\june\Documents\GitHub\Public_Speaking\Public_Speaking\Plugins\SocketIOClient\Intermediate\Build\Win64\x64\UnrealEditor\Development\SocketIOClient\Module.SocketIOClient.cpp.dep.json"
-@"C:\Users\june\Documents\GitHub\Public_Speaking\Public_Speaking\Plugins\SocketIOClient\Intermediate\Build\Win64\x64\UnrealEditor\Development\SocketIOClient\SocketIOClient.Shared.rsp"
+"D:\Projects\Unreal_Projects\Public_Speaking\Public_Speaking\Plugins\SocketIOClient\Intermediate\Build\Win64\x64\UnrealEditor\Development\SocketIOClient\Module.SocketIOClient.cpp"
+/FI"D:\Projects\Unreal_Projects\Public_Speaking\Public_Speaking\Intermediate\Build\Win64\x64\Public_SpeakingEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderOldest.h"
+/FI"D:\Projects\Unreal_Projects\Public_Speaking\Public_Speaking\Plugins\SocketIOClient\Intermediate\Build\Win64\x64\UnrealEditor\Development\SocketIOClient\Definitions.SocketIOClient.h"
+/Yu"D:\Projects\Unreal_Projects\Public_Speaking\Public_Speaking\Intermediate\Build\Win64\x64\Public_SpeakingEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderOldest.h"
+/Fp"D:\Projects\Unreal_Projects\Public_Speaking\Public_Speaking\Intermediate\Build\Win64\x64\Public_SpeakingEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderOldest.h.pch"
+/Fo"D:\Projects\Unreal_Projects\Public_Speaking\Public_Speaking\Plugins\SocketIOClient\Intermediate\Build\Win64\x64\UnrealEditor\Development\SocketIOClient\Module.SocketIOClient.cpp.obj"
+/sourceDependencies "D:\Projects\Unreal_Projects\Public_Speaking\Public_Speaking\Plugins\SocketIOClient\Intermediate\Build\Win64\x64\UnrealEditor\Development\SocketIOClient\Module.SocketIOClient.cpp.dep.json"
+@"D:\Projects\Unreal_Projects\Public_Speaking\Public_Speaking\Plugins\SocketIOClient\Intermediate\Build\Win64\x64\UnrealEditor\Development\SocketIOClient\SocketIOClient.Shared.rsp"
 /Zc:inline
 /nologo
 /Oi
