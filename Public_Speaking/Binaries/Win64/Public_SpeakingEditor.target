@@ -2418,11 +2418,27 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Editor/MeshLODToolset/Binaries/Win64/UnrealEditor-MeshLODToolset.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Editor/MeshLODToolset/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UnrealEditor-MobileLauncherProfileWizard.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Editor/ModelingToolsEditorMode/Binaries/Win64/UnrealEditor-ModelingToolsEditorMode.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Editor/ModelingToolsEditorMode/Binaries/Win64/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -2691,6 +2707,22 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Experimental/GeometryCollectionPlugin/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/GeometryFlow/Binaries/Win64/UnrealEditor-GeometryFlowCore.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/GeometryFlow/Binaries/Win64/UnrealEditor-GeometryFlowMeshProcessing.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/GeometryFlow/Binaries/Win64/UnrealEditor-GeometryFlowMeshProcessingEditor.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/GeometryFlow/Binaries/Win64/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -3002,6 +3034,18 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/JsonBlueprintUtilities/Binaries/Win64/UnrealEditor-JsonBlueprintGraph.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/JsonBlueprintUtilities/Binaries/Win64/UnrealEditor-JsonBlueprintUtilities.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/JsonBlueprintUtilities/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Marketplace/AzSpeech/Binaries/Win64/UnrealEditor-AzSpeech.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -3019,58 +3063,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Marketplace/AzSpeech/Binaries/Win64/UnrealEditor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/DigitalHumanAnimation/Binaries/Win64/UnrealEditor-AnimationCustomLibrary.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/DigitalHumanAnimation/Binaries/Win64/UnrealEditor-AnimationCustomLibrary.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/DigitalHumanAnimation/Binaries/Win64/UnrealEditor-CustomEditorHelper.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/DigitalHumanAnimation/Binaries/Win64/UnrealEditor-CustomEditorHelper.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/DigitalHumanAnimation/Binaries/Win64/UnrealEditor-MetahumanSDK.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/DigitalHumanAnimation/Binaries/Win64/UnrealEditor-MetahumanSDK.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/DigitalHumanAnimation/Binaries/Win64/UnrealEditor-MetahumanSDKEditor.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/DigitalHumanAnimation/Binaries/Win64/UnrealEditor-MetahumanSDKEditor.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/DigitalHumanAnimation/Binaries/Win64/UnrealEditor-SoundCustomLibrary.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/DigitalHumanAnimation/Binaries/Win64/UnrealEditor-SoundCustomLibrary.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/DigitalHumanAnimation/Binaries/Win64/UnrealEditor-TurboLinkGrpc.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/DigitalHumanAnimation/Binaries/Win64/UnrealEditor-TurboLinkGrpc.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/DigitalHumanAnimation/Binaries/Win64/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -3291,6 +3283,26 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Marketplace/MetaHuman/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/VaRestRee7145bf0b1deV3/Binaries/Win64/UnrealEditor-VaRest.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/VaRestRee7145bf0b1deV3/Binaries/Win64/UnrealEditor-VaRest.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/VaRestRee7145bf0b1deV3/Binaries/Win64/UnrealEditor-VaRestEditor.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/VaRestRee7145bf0b1deV3/Binaries/Win64/UnrealEditor-VaRestEditor.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/VaRestRee7145bf0b1deV3/Binaries/Win64/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -4194,6 +4206,18 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Web/HttpBlueprint/Binaries/Win64/UnrealEditor-HttpBlueprint.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Web/HttpBlueprint/Binaries/Win64/UnrealEditor-HttpBlueprintGraph.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Web/HttpBlueprint/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/WorldMetrics/Binaries/Win64/UnrealEditor-CsvMetrics.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -4227,30 +4251,6 @@
 		},
 		{
 			"Path": "$(ProjectDir)/Binaries/Win64/UnrealEditor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/CLISystem-Unreal/Binaries/Win64/UnrealEditor-CLISystem.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/CLISystem-Unreal/Binaries/Win64/UnrealEditor-CLISystem.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/CLISystem-Unreal/Binaries/Win64/UnrealEditor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/PiperCLI-Unreal/Binaries/Win64/UnrealEditor-PiperCLI.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/PiperCLI-Unreal/Binaries/Win64/UnrealEditor-PiperCLI.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/PiperCLI-Unreal/Binaries/Win64/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -26940,7 +26940,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Editor/MeshLODToolset/MeshLODToolset.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Editor/ModelingToolsEditorMode/ModelingToolsEditorMode.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -27048,6 +27056,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Experimental/GeometryFlow/GeometryFlow.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Experimental/LiveLinkControlRig/LiveLinkControlRig.uplugin",
 			"Type": "UFS"
 		},
@@ -27128,6 +27140,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/JsonBlueprintUtilities/JsonBlueprintUtilities.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Marketplace/AzSpeech/AzSpeech.uplugin",
 			"Type": "UFS"
 		},
@@ -27156,11 +27172,11 @@
 			"Type": "NonUFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/DigitalHumanAnimation/MetaHumanSDK.uplugin",
+			"Path": "$(EngineDir)/Plugins/Marketplace/MetaHuman/MetaHuman.uplugin",
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/MetaHuman/MetaHuman.uplugin",
+			"Path": "$(EngineDir)/Plugins/Marketplace/VaRestRee7145bf0b1deV3/VaRest.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -27476,19 +27492,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Web/HttpBlueprint/HttpBlueprint.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/WorldMetrics/WorldMetrics.uplugin",
 			"Type": "UFS"
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/XGEController/XGEController.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/CLISystem-Unreal/CLISystem.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/PiperCLI-Unreal/PiperCLI.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -27537,7 +27549,6 @@
 		"BlendSpaceMotionAnalysis",
 		"BlueprintHeaderView",
 		"Bridge",
-		"CLISystem",
 		"CLionSourceCodeAccess",
 		"CableComponent",
 		"CameraCalibrationCore",
@@ -27590,12 +27601,14 @@
 		"GenerativeAISupport",
 		"GeometryCache",
 		"GeometryCollectionPlugin",
+		"GeometryFlow",
 		"GeometryMode",
 		"GeometryProcessing",
 		"GitSourceControl",
 		"GoogleCloudMessaging",
 		"GooglePAD",
 		"HairStrands",
+		"HttpBlueprint",
 		"IKRig",
 		"IOSDeviceProfileSelector",
 		"ImgMedia",
@@ -27603,6 +27616,7 @@
 		"Interchange",
 		"InterchangeEditor",
 		"InterchangeTests",
+		"JsonBlueprintUtilities",
 		"KDevelopSourceCodeAccess",
 		"LauncherChunkInstaller",
 		"LensComponent",
@@ -27619,15 +27633,16 @@
 		"MediaIOFramework",
 		"MediaPlate",
 		"MediaPlayerEditor",
+		"MeshLODToolset",
 		"MeshModelingToolset",
 		"MeshModelingToolsetExp",
 		"MeshPainting",
 		"MetaHuman",
 		"MetaHumanProjectUtilities",
-		"MetaHumanSDK",
 		"Metasound",
 		"MobileLauncherProfileWizard",
 		"MobilePatchingUtils",
+		"ModelingToolsEditorMode",
 		"MsQuic",
 		"N10XSourceCodeAccess",
 		"NNERuntimeORT",
@@ -27650,7 +27665,6 @@
 		"OpenXRHandTracking",
 		"Paper2D",
 		"PerforceSourceControl",
-		"PiperCLI",
 		"PixWinPlugin",
 		"PlanarCut",
 		"PlasticSourceControl",
@@ -27692,6 +27706,7 @@
 		"UObjectPlugin",
 		"UVEditor",
 		"UdpMessaging",
+		"VaRest",
 		"VariantManager",
 		"VariantManagerContent",
 		"VisualStudioCodeSourceCodeAccess",
