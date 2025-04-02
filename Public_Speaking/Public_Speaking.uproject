@@ -116,6 +116,11 @@
 		{
 			"Name": "CLISystem",
 			"Enabled": false
+		},
+		{
+			"Name": "SocketIOClient",
+			"Enabled": false,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/slug/socket-io-client"
 		}
 	],
 	"TargetPlatforms": [
