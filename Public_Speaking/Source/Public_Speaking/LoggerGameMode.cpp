@@ -2,8 +2,21 @@
 #include "LoggerGameMode.h"
 #include "Misc/DateTime.h"
 
+void ALoggerGameMode::PreExit()
+{
+	Super();
+	SaveFileToFile();
+}
+
+void ALoggerGameMode::GameEnding()
+{
+	Super();
+	SaveFileToFile();
+}
+
 void ALoggerGameMode::AddMessage(const FString& Message)
 {
+	UE_LOG(LogTemp, Display, TEXT("Logging: %s"), *Message);
 	const auto Time = FDateTime().Now(); 
 	Messages.Add(FString::Printf(TEXT("(%s : %s)"),*Time.ToString() , *Message));
 }
