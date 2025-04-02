@@ -15,6 +15,8 @@ class PUBLIC_SPEAKING_API ALoggerGameMode : public AGameModeBase
 	GENERATED_BODY()
 	TArray<FString> Messages;
 	FString FileName = "log";
+	virtual void PreExit();
+	virtual void GameEnding();
 
 public:
 	UFUNCTION(BlueprintCallable, Category = "Logger") 
