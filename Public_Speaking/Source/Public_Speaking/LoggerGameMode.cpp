@@ -21,6 +21,17 @@ void ALoggerGameMode::AddMessage(const FString& Message)
 	Messages.Add(FString::Printf(TEXT("(%s : %s)"),*Time.ToString() , *Message));
 }
 
+void ALoggerGameMode::ExecuteConsoleCommand(const FString& Command)
+{
+	if(GetWorld()==nullptr)
+	{
+		return; 
+	}
+	
+	UE_LOG(LogTemp, Display, TEXT("Executed: %s"), *Command);
+	GetWorld()->Exec(GetWorld(), *Command);
+}
+
 void ALoggerGameMode::SaveFileToFile() const
 {
 	const auto Time = FDateTime().Now(); 

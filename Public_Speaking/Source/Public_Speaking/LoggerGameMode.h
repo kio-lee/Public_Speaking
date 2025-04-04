@@ -22,6 +22,8 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Logger") 
 	void AddMessage(const FString& Message);
 
+	UFUNCTION(BlueprintCallable, Category = "Settings")
+	void ExecuteConsoleCommand(const FString& Command);
 	UFUNCTION(BlueprintCallable)
 	void SaveFileToFile() const; 
 	
